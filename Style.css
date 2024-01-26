@@ -1,0 +1,39 @@
+*{
+    box-sizing:boarder-box;
+    margin: 0;
+    padding-left:2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: rgb(5, 6, 6);
+    display: flex;
+    justify-content: center;
+    height: content;
+    align-items: center;
+}
+.navbar__container{
+   display: flex;
+   justify-content: space-between;
+   height: 80px;
+   width: 100%;
+   max-width: 1300px;
+   margin: 0 auto;
+   padding:1 50px;
+   
+}
+#navbar__logo{
+    background-color: aqua;
+    background-image: linear-gradient( to top, #ff0844 0%,#ffb199 100%);
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 2rem;
+}
+.navbar__toggle .bar{
+ display: block;
+ cursor: pointer;
+}
